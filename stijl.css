@@ -1,0 +1,87 @@
+body {
+font-family: Verdana, sans-serif;
+background-color: skyblue;
+}
+header {
+width: 80%;
+height: 120px;
+background-color: red;
+}
+Footer {
+width: 80%;
+height: 100px;
+background-color: Yellow;
+}
+small {
+  padding-left: 1200px;
+}
+ul a{
+  color: white;
+  text-decoration: none;
+}
+li{
+  display: inline-block;
+  height: 22px;
+  width: 100px;
+  padding: 12px;
+  text-align: center;
+  color: white;
+  border-left: 2px solid green;
+  border-right: 1px solid green;
+  background-color: olive;
+}
+li:hover {
+  background-color: lightgreen;
+  border-style: none;
+}
+h1 {
+  margin-left: 300px;
+}
+#img{
+width: 250;
+height: 220;
+margin-left: 500px;
+}
+h2, h3, p {
+  padding-left: 400px;
+  padding-right: 400px;
+}
+h2, h3{
+  color: #00008B;
+}
+p {
+  color: #4B0082;
+  padding-left: 400px;
+  padding-right: 400px;
+}
+input[type="text"], input[type="email"], textarea {
+  display: block;
+  margin: 5px 400px;
+  width: 400px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 5px green;
+}
+textarea {
+  height: 200px;
+  background-color: lightblue;
+  padding: 5px 4px;
+}
+button{
+  display: block;
+  margin: 5px 550px;
+  width: 70px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px green;
+}
+button:active {
+background-color: lightgreen;
+color: blue;
+margin-left: 550px;
+width: 70px;
+border-radius: 8px;
+box-shadow: inset 2px 2px 5px green;
+}
+
+}
